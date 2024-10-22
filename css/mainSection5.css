@@ -1,0 +1,201 @@
+/*Налаштування секцій*/
+.Fifthsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+    position: relative;
+}
+
+.clientIMG {
+    width: 750px;
+    height: 790px;
+    margin: 0;
+
+}
+
+/*налаштування тексту*/
+.CLIENTrectangleOptBlue {
+    display: flex;
+    width: 191.86px;
+    height: 39.29px;
+    background-color: #172656;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.titleClient {
+    font-size: 14px;
+    color: #3A86FF;
+    text-align: center;
+}
+
+/*Налаштування h2 i p(info)*/
+.client {
+    width: 543.18px;
+    height: 127.84px;
+    margin-top: 18.3px;
+    margin-bottom: 34.65px;
+}
+
+.infoClient {
+    width: 471.26px;
+    height: 175.96px;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+/*Налаштування img*/
+.rectangleYClient {
+    background-color: #FFBE0B;
+    width: 544.63px;
+    height: 564.15px;
+    border-radius: 10px;
+    position: absolute;
+    margin: 0;
+    top: 180px;
+    left: 740px;
+}
+
+.IMGman {
+    position: absolute;
+    left: 740px;
+    top: 10px;
+}
+
+/*Налаштування відображення прямокутника з фото клієнтів*/
+.manyClients {
+    height: 149.34px;
+    width: 270.86px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    padding-left: 36px;
+    position: absolute;
+    left: 1040px;
+    top: 620px;
+}
+
+.manyclientTXT {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.IMGmanyClient {
+    display: flex;
+    width: 230px;
+    height: 58.39px;
+}
+
+.imgClient1, .imgClient2, .imgClient3, .imgClient4 {
+    border: 4.5px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.imgClient2 {
+    left: 75px;
+}
+
+.imgClient3 {
+    left: 115px;
+}
+
+.imgClient4 {
+    
+    left: 155px;
+}
+
+.OrangeCircle {
+    left: 195px;
+}
+
+/*Налаштування помаранчевого кола*/
+.OrangeCircle {
+    display: flex;
+    width: 49.47px;
+    height: 49.47px;
+    background-color: #FB5607;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: 0;
+    margin-top: 4.5px;
+}
+
+.NumberClients {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+/*Налаштування адаптиву*/
+
+/* Адаптив для планшетів */
+@media (max-width: 1024px) {
+    .Fifthsection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .clientTXT{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infoClient {
+        margin-bottom: 0;
+    }
+
+    .clientIMG {
+        display: none;
+    }
+}
+
+/* Адаптив для мобільних телефонів */
+@media (max-width: 768px) {
+    .Fifthsection {
+        margin-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .CLIENTrectangleOptBlue {
+        width: 60%;
+    }
+
+    .clientIMG {
+        display: none;
+    }
+
+    .clientTXT {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .client, .infoClient {
+        height: auto;
+        text-align: center;
+        width: 80%;
+    }
+}

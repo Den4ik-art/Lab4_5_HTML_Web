@@ -1,0 +1,149 @@
+/* Налаштування другої секції */
+.Secondsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding: 40px;
+    margin-top: 100px;
+}
+
+/* Блок з текстом і інформацією */
+.TXTservice {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-self: start;
+}
+
+/*Налаштування тексту*/
+.SERVICErectangleOptBlue{
+    display: flex;
+    width: 231.93px;
+    height: 39.29px;
+    background-color: #172656;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.titleService {
+    font-size: 14px;
+    color: #3A86FF;
+    text-align: center;
+}
+
+.service {
+    width: 633.18px;
+    height: 193.04px;
+    margin-top: 18.3px;
+}
+
+/*Налаштування опису*/
+
+.NumberSurvise {
+    width: 504.02px;
+    height: 106.73px;
+    display: grid;
+    grid-template-columns: auto 2px auto;
+    gap: 40px;
+    align-items: center;
+}
+
+.SerProd, .SerDow {
+    font-size: 14px;
+    color: #868695;
+}
+
+.grayLine {
+    height: 76.33px;
+    width: 0.2px;
+    background-color: #626276;
+}
+
+.ProdNnum {
+    color: #FFBE0B;
+    margin-bottom: 13.45px;
+}
+
+.DowNum {
+    color: #FB5607;
+    margin-bottom: 13.45px;
+}
+
+.DowNum, .SerDow {
+    margin-left: 48.67px;
+}
+
+
+/*Налаштування фото*/
+.IMGphone {
+    width: 724.35px;
+    height: 819.44px;
+}
+
+
+
+/*Налаштування адаптиву*/
+
+/* Адаптив для планшетів */
+@media (max-width: 1024px) {
+    .Secondsection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .TXTservice{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Адаптив для мобільних телефонів */
+@media (max-width: 768px) {
+    .Secondsection {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+        height: auto;
+    }
+
+    .SERVICErectangleOptBlue {
+        width: 60%;
+    }
+
+    .IMGphone, .grayLine {
+        display: none;
+    }
+
+    .TXTservice, .NumberSurvise {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .NumberSurvise {
+        height: auto;
+        margin-left: 50px;
+    }
+    
+    .NumberSurvise, .service, .ProdNnum, .SerProd, .DowNum, .SerDow {
+        height: auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .ProdNnum, .SerProd, .DowNum, .SerDow {
+        margin: 0;
+        padding: 0;
+    }
+}

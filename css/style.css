@@ -1,0 +1,82 @@
+@import url("header.css");
+@import url("mainSection1.css");
+@import url("mainSection2.css");
+@import url("mainSection3.css");
+@import url("mainSection4.css");
+@import url("mainSection5.css");
+@import url("mainSection6.css");
+@import url("footer.css");
+
+body {
+    background-color: #0E0E2C;
+    width: 100%;
+    height: auto;
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 62px;
+    width: 550px;
+    height: 162px;
+    margin-top: 10.16px;
+    margin-bottom: 34.65px;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 38px;
+}
+
+h4, h5 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+p {
+    color: #868695;
+}
+
+/* Адаптив для планшетів */
+@media (max-width: 1024px) {
+    body {
+        width: 100%;
+        height: auto;
+    }
+    h1, h2, h3, h5 {
+        text-align: center;
+    }
+}
+
+/* Адаптив для мобільних телефонів */
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 48px;
+        width: 80%;
+        height: auto;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 38px;
+        width: 80%;
+        height: auto;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 28px;
+    }
+    
+}

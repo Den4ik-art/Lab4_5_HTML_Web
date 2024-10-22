@@ -1,0 +1,412 @@
+.FIRSTsection {
+    width: 100%;
+    margin-top: 176.75px;
+    margin-left: 130px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TXTemail {
+    height: 830px;
+    margin-top: 150px;
+}
+
+.allIMGsection1 {
+    width: 100%;
+    height: 830px;
+}
+
+.infoOne {
+    font-size: 14px;
+    color: #3A86FF;
+    text-align: center;
+}
+
+.infoTwo {
+    font-size: 16px;
+    color: #868695;
+    width: 461.26px;
+    height: 58.71px;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 49.08px;
+}
+
+.rectangleOptBlue {
+    display: flex;
+    width: 257.35px;
+    height: 39.29px;
+    background-color: #172656;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.EmailInput {
+    width: 485.65px;
+    height: 68.94px;
+    border-radius: 15px;
+    border: 2px solid #626276;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    padding-right: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.email-input {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: #626276;
+    font-size: 13px;
+    outline: none;
+}
+
+.ButtonSINGup {
+    width: 126.03px;
+    height: 50.61px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0E0E2C;
+    background-color: #FFBE0B;
+    border: 2px solid #FFBE0B;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ButtonSINGup:hover {
+    background-color: #0E0E2C;
+    color: #FFBE0B;
+    font-size: 20px;
+}
+
+/*Поля згоди*/
+
+.allCheckboxes {
+    margin-top: 26.68px;
+    display: flex;
+}
+
+.checkboxes1, .checkboxes2 {
+    color: #FFFFFF;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.circleCheckboxes1 {
+    width: 31px;
+    height: 30px;
+    background-color: #3A86FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 14.59px;
+}
+
+.circleCheckboxes2 {
+    width: 31px;
+    height: 30px;
+    background-color: #3A86FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 48.38px;
+    margin-right: 14.59px;
+}
+
+.TXTcheckboxes1, .TXTcheckboxes2 {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/*Головне фото з прямокутниками та колами*/
+
+.circle_blur_y {
+    width: 236.94px;
+    height: 236.94px;
+    background-color: #FFBE0B;
+    opacity: 50%;
+    filter: blur(40px);
+    border-radius: 50%;
+    position: absolute;
+    left: 400px;
+    top: 600px;
+}
+
+.circle_blur_p {
+    width: 117.58px;
+    height: 117.58px;
+    background-color: #8338EC;
+    filter: blur(40px);
+    border-radius: 50%;
+    position: absolute;
+    left: 700px;
+    top: 40px;
+}
+
+
+.rectangels {
+    position: relative;
+    width: 920.66px;
+    height: 825.59px;
+}
+
+.rectangel_one {
+    width: 544.63px;
+    height: 667.58px;
+    border-radius: 20px;
+    background-color: #3A86FF;
+    position: absolute;
+    transform: rotate(345deg);
+    left: 120px
+}
+
+.rectangel_two {
+    width: 544.63px;
+    height: 667.58px;
+    border-radius: 20px;
+    background-color: #FFBE0B;;
+    position: absolute;
+    left: 120px
+}
+
+.emailphoto {
+    width: 920.66px;
+    height: 825.59px;
+    position: absolute;
+    left: -100px;
+    bottom: 60px;
+}
+
+/*Прямокутник з інформацією про викладачів*/
+
+.TeacherInfo {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 438.64px;
+    height: 126.63px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    top: 650px;
+    left: -50px;
+}
+
+.Orectangel {
+    width: 153.49px;
+    height: 163.15px;
+    background-color: #FB5607;
+    margin-bottom: 124px;
+    position: absolute;
+    bottom: -124px;
+}
+
+.TeacherPhoto {
+    width: 153px;
+    height: 233px;
+    position: absolute;
+    bottom: 0.01px;
+}
+
+.TextContent {
+    width: 160px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding: 0;
+    margin-left: 230px;
+}
+
+.NameTeacher {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0E0E2C;
+    margin: 0;
+}
+
+.Servise {
+    font-size: 12px;
+    color: #838394;
+    margin: 10px 0;
+}
+
+.circle_play {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background-color: #3A86FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    left: 24px;
+    margin: 0;
+}
+
+.PlayIMG {
+    width: 30px;
+    height: auto;
+}
+
+/*Прямокутник з покупкою плану*/
+
+.Plans {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 192px;
+    height: 250px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    left: 600px;
+    top: 210px;
+}
+
+.folderIMG {
+    width: 57.94px;
+    height: 76.92px;
+    margin-bottom: 10px;
+}
+
+.PlansProgres {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #0E0E2C;
+}
+
+.Plansinfo {
+    font-size: 11px;
+    color: #838394;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.BuyPlanBTN {
+    background-color: #3A86FF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.BuyPlanBTN:hover {
+    background-color: #0056b3;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/*Налаштування адаптиву*/
+
+/* Адаптив для планшетів */
+@media (max-width: 1024px) {
+    .FIRSTsection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .TXTemail{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .allIMGsection1 {
+        margin-top: 60px;
+        height: auto;
+        width: 100%;
+        margin-left: 180px;
+    }
+}
+
+
+
+/* Адаптив для мобільних телефонів */
+@media (max-width: 768px) {
+    .FIRSTsection {
+        margin-left: 24px;
+        margin-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .allIMGsection1, .emailIcon {
+        display: none;
+    }
+
+    .rectangleOptBlue {
+        width: 60%;
+    }
+
+    .TXTemail {
+        margin-top: 80px;
+        height: auto;
+    }
+
+    .TXTemail, .allCheckboxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .allCheckboxes {
+        margin-left: -35px;
+    }
+
+    h1, .infoTwo {
+        width: 80%;
+        height: auto;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .EmailInput {
+        width: 60%;
+    }
+
+    .EmailInput {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email-input {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .ButtonSINGup {
+        margin-left: -15px;
+    }
+}
+

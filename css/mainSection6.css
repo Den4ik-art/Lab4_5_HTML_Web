@@ -1,0 +1,121 @@
+/*Налаштування секцій*/
+.Sixthsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+.contact {
+    margin-bottom: 17.65px;
+}
+
+.contactInfo {
+    margin-top: 0;
+    margin-bottom: 49.78px;
+}
+
+/*Налаштування input і button*/
+.MessagesInput {
+    width: 485.65px;
+    height: 68.94px;
+    border-radius: 15px;
+    border: 2px solid #626276;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    padding-right: 8px;
+}
+
+.messeges-input {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: #626276;
+    font-size: 13px;
+    outline: none;
+}
+
+.ButtonMESG {
+    width: 146.03px;
+    height: 50.61px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0E0E2C;
+    background-color: #FFBE0B;
+    border: 2px solid #FFBE0B;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ButtonMESG:hover {
+    background-color: #0E0E2C;
+    color: #FFBE0B;
+    font-size: 18px;
+}
+
+/* Додаткові стилі для вирівнювання елементів по центру */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/*Налаштування адаптиву*/
+
+/* Адаптив для планшетів */
+@media (max-width: 1024px) {
+    .Sixthsection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+
+}
+
+/* Адаптив для мобільних телефонів */
+@media (max-width: 768px) {
+    .Sixthsection {
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .MessagesInput {
+        width: 60%;
+    }
+    
+    .MessagesInput {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .messeges-input {
+        margin-bottom: 10px;
+    }
+
+    .ButtonMESG {
+        margin: 0;
+        margin-left: -13px;
+    }
+
+    .contactInfo, .contact {
+        text-align: center;
+        width: 80%;
+    }
+}

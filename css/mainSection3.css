@@ -1,0 +1,193 @@
+/* Налаштування третьої секції */
+.Thirdsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding: 40px;
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.TXTdoing {
+    margin-right: 0;
+}
+
+/*Налаштування тексту*/
+.DOINGrectangleOptBlue {
+    display: flex;
+    width: 231.93px;
+    height: 39.29px;
+    background-color: #172656;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.titleDoing {
+    font-size: 14px;
+    color: #3A86FF;
+    text-align: center;
+}
+
+.doing {
+    width: 533.18px;
+    height: 127.84px;
+}
+
+.doingInfo {
+    width: 461.26px;
+    height: 87.38px;
+}
+
+/*Налаштування блоку .grow, .content, .reporting, .conversion*/
+
+.ICONdoing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 25px;
+    align-items: start; 
+    margin-left: 0;
+    margin-right: 130px;
+}
+
+.grow, .content, .reporting, .conversion {
+    width: 267.5px;
+    height: 239.44px;
+    margin: 0;  
+    padding-left: 22.25;
+    padding-top: 24.1px;
+    padding-bottom: 24.1px;
+    padding-right: 23.05px;
+}
+
+.RIMGgrow, .RIMGcontent, .RIMGreporting, .RIMGconversion {
+    width: 73.26px;
+    height: 66.26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 24.41px;
+    margin-left: 22.25px;
+    margin-bottom: 0;
+}
+
+.TXTgrow, .TXTcontent, .TXTreporting, .TXTconversion {
+    margin-top: 31.2px;
+    margin-bottom: 19.98px;   
+}
+
+.INFOgrow, .INFOcontent, .INFOreporting, .INFOconversion, .TXTgrow, .TXTcontent, .TXTreporting, .TXTconversion {
+    margin-left: 22.25px;
+}
+
+.INFOgrow, .INFOcontent, .INFOreporting, .INFOconversion {
+    width: 222.2px;
+    height: 47.79px;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.content {
+    background-color: #1A1A3D;
+    border-radius: 10px;
+}
+
+.RIMGgrow {
+    background-color: #3E3125;
+}
+
+.RIMGcontent {
+    background-color: #172656;
+}
+
+.RIMGreporting {
+    background-color: #3E0B39;
+}
+
+.RIMGconversion {
+    background-color: #3D1C25;
+}
+
+
+
+/*Налаштування адаптиву*/
+
+/* Адаптив для планшетів */
+@media (max-width: 1024px) {
+    .Thirdsection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .TXTdoing{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ICONdoing {
+        margin-left: 90px;
+    }
+}
+
+/* Адаптив для мобільних телефонів */
+@media (max-width: 768px) {
+    .Thirdsection {
+        margin-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .DOINGrectangleOptBlue {
+        width: 60%;
+    }
+
+    .TXTdoing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .doing, .doingInfo {
+        text-align: center;
+        width: 80%;
+        height: auto;
+    }
+
+    .ICONdoing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+
+    .grow, .content, .conversion, .reporting {
+        height: auto;
+        width: 80%;
+    } 
+
+    .content {
+        background-color: #0E0E2C;
+    }
+    
+    .RIMGgrow, .RIMGcontent, .RIMGconversion, .RIMGreporting, .TXTgrow, .TXTcontent, .TXTconversion, .TXTreporting, .INFOgrow, .INFOcontent, .INFOconversion, .INFOreporting {
+        text-align: center;
+        width: 80%;
+        height: auto;
+    }
+}

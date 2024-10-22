@@ -1,0 +1,231 @@
+/*Налаштування секцій*/
+.Fourthsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+    position: relative;
+}
+
+.IMGstories {
+    height: 760px;
+}
+
+.TXTstories {
+    height: 760px;
+    width: 710px;
+    margin-left: 0;
+}
+
+/*Налаштування IMG*/
+.rectangleBlueBGR {
+    background-color: #3A86FF;
+    width: 544.63px;
+    height: 660.91px;
+    border-radius: 10px;
+    position: absolute;
+    margin: 0;
+    
+}
+
+.IMGchair {
+    width: 628.75px;
+    height: 585.47px;
+    position: relative;
+    margin-top: 102.79px;
+    margin-left: 30px;
+}
+
+/*Налаштуваня білого прямокутника*/
+.sales {
+ background-color: #FFFFFF;
+    width: 210.39px;
+    height: 241.64px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+    left: -60px;
+}
+
+.circleSales {
+    display: flex;
+    width: 118.45px;
+    height: 118.45px;
+    border: 12px solid #3A86FF;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.circleSalesTXT {
+    color: #3A86FF;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.SalesTXT {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+/*Налаштування тексту*/
+.STORIESrectangleOptBlue {
+    display: flex;
+    width: 231.93px;
+    height: 39.29px;
+    background-color: #172656;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.titleStories {
+    font-size: 14px;
+    color: #3A86FF;
+    text-align: center;
+}
+
+.stories {
+    width: 543.18px;
+    height: 124.13px;
+    margin-bottom: 0;
+}
+
+/*Налаштування поінтерів*/
+.StrInfo1, .StrInfo2, .StrInfo3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.StrCircle1, .StrCircle2, .StrCircle3 {
+    width: 31px;
+    height: 30px;
+    background-color: #3A86FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-right: 26.52px;
+}
+
+/*Налаштування тексту для інфо-списку*/
+.infoName1 {
+    width: 352px;
+    height: 26px;
+    margin-bottom: 0;
+}
+
+.info1, .info2, .info3 {
+    font-size: 14px;
+    width: 319.94px;
+    height: 49.3px;
+    margin-top: 21.74px;
+    margin-bottom: 0;
+}
+
+.infoName2 {
+    width: 329px;
+    height: 26px;
+    margin-bottom: 0;
+}
+
+.infoName3 {
+    width: 352px;
+    height: 26px;
+    margin-bottom: 0;
+}
+
+/*Налаштування розмішення інфо-списку та поінтерів*/
+.INFOtogether1, .INFOtogether2, .INFOtogether3 {
+    padding-top: 35px;
+}
+
+.StrInfo1, .StrInfo2, .StrInfo3 {
+    margin: 0;
+}
+
+.StrInfo1 {
+    margin-top: 20px;
+}
+
+
+
+/*Налаштування адаптиву*/
+
+/* Адаптив для планшетів */
+@media (max-width: 1024px) {
+    .Fourthsection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 40px; 
+        padding-top: 0;  
+    }
+
+    .TXTstories{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .IMGstories {
+        display: none;
+    }
+}
+
+/* Адаптив для мобільних телефонів */
+@media (max-width: 768px) {
+    .Fourthsection {
+        margin-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .STORIESrectangleOptBlue {
+        width: 60%;
+    }
+
+    .IMGstories, .StrCircle1, .StrCircle2, .StrCircle3 {
+        display: none;
+    }
+
+    .TXTstories {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .StrInfo1, .StrInfo2, .StrInfo3 {
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .stories, .infoName1, .info1, .infoName2, .info2, .infoName3, .info3 {
+        text-align: center;
+        width: 80%;
+        height: auto;
+    }
+
+    .infoName1, .info1, .infoName2, .info2, .infoName3, .info3 {
+        margin-left: 28px;
+        margin-top: 0;
+    }
+}

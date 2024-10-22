@@ -1,0 +1,196 @@
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.StoreName {
+    margin-top: 39.94px;
+    margin-left: 90px;
+    width: 125.38px;
+    height: 40.73px;
+    display: flex;
+    align-items: center;
+}
+
+.Menu {
+    display: flex;
+    margin-top: 50.81px;
+    margin-left: 366.8px;
+}
+
+.MenuButton {
+    margin-top: 35px;
+    margin-left: 112.18px;
+}
+
+.circles {
+    position: relative;
+    display: inline-block;
+    width: 40.73px;
+    height: 40.73px;
+}
+.circle {
+    width: 20.44px;
+    height: 20.44px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.one {
+    background-color: #8338EC;
+    opacity: 80%;
+    top: 10px;
+    left: 20px;
+}
+
+.two {
+    background-color: #3A86FF;
+    opacity: 80%;
+    top: 10px;
+    left: 0;
+}
+
+.three {
+    background-color: #FFBE0B;
+    opacity: 80%;
+    top: 0;
+    left: 10px;
+}
+
+.fourth {
+    background-color: #FB5607;
+    opacity: 80%;
+    top: 20px;
+    left: 10px;
+}
+
+.StoreNameTXT {
+    margin-top: 49.71px;
+    margin-left: 90px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Menu {
+    color:#FFFFFF;
+    font-size: 16px;
+}
+
+.MenuTXT {
+    margin-right: 53.55px;
+}
+
+.MenuButton {
+    margin-left: 112px;
+}
+
+.ButtonSINGin {
+    margin-top: 15px;
+    width: 126.03px;
+    height: 50.61px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFBE0B;
+    background-color: #0E0E2C;
+    border: 2px solid #FFBE0B;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 27.94px;
+}
+
+.ButtonSINGin:hover {
+    background-color: #FFBE0B;
+    color: #0E0E2C;
+    font-size: 20px;
+}
+
+.ButtonTRYfree {
+    margin-top: 15px;
+    width: 126.03px;
+    height: 50.61px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0E0E2C;
+    background-color: #FFBE0B;
+    border: 2px solid #FFBE0B;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ButtonTRYfree:hover {
+    background-color: #0E0E2C;
+    color: #FFBE0B;
+    font-size: 20px;
+}
+
+
+
+/*Налаштування адаптиву*/
+
+/* Адаптив для планшетів */
+@media (max-width: 1024px) {
+    .StoreName {
+        margin-left: 30px;
+    }
+
+    .Menu {
+        margin-left: 80px;
+    }
+
+    .MenuTXT {
+        margin-right: 20.55px;
+    }
+
+    .MenuButton {
+        margin-left: 10px;
+    }
+
+    .ButtonSINGin {
+        margin-right: 10px;
+    }
+}
+
+/* Адаптив для мобільних телефонів */
+@media (max-width: 768px) {
+    .StoreName {
+        margin-left: -45px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .Menu {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    .MenuTXT {
+        margin: 5px 0;
+    }
+
+    .MenuButton {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 50px;
+    }
+
+    .ButtonSINGin, .ButtonTRYfree {
+        width: 100%;
+    }
+}
+

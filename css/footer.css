@@ -1,0 +1,68 @@
+footer {
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 85px;
+}
+
+/*Налаштування соц мереж*/
+.SocialMedia {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 137px;
+    margin-top: 58px;
+}
+
+.FacebookIcon, .TwitterIcon, .InstagramIcon, .LinkedinIcon {
+    margin-left: 0;
+    margin-right: 41.67px;
+}
+
+/*Налаштування адаптиву*/
+
+/* Адаптив для планшетів */
+@media (max-width: 1024px) {
+    footer {
+        padding-bottom: 50px;
+        margin-top: 75px;
+    }
+
+    .SocialMedia {
+        margin-left: 20px;
+    }
+
+    .FacebookIcon, .TwitterIcon, .InstagramIcon, .LinkedinIcon {
+        margin-right: 38.67px;
+    }
+}
+
+/* Адаптив для мобільних телефонів */
+@media (max-width: 768px) {
+    footer .StoreName, 
+    footer .Menu {
+        display: none;
+    }
+
+    footer {
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        margin-top: 15px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    footer .SocialMedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .SocialMedia img {
+        margin: 0 10px;
+        width: 100%;
+    }
+}
